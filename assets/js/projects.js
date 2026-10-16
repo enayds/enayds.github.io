@@ -33,7 +33,7 @@ window.PROJECTS = [
     role: "Business analyst and data analyst (solo)",
     tools: ["Requirements (BRD, SRS)", "Wireframes", "SQL", "Python", "Tableau"],
     cover: "https://public.tableau.com/static/images/RG/RG58NCYT6/1.png",
-    links: { tableau: "https://public.tableau.com/shared/RG58NCYT6" },
+    links: { tableau: "https://public.tableau.com/shared/RG58NCYT6", github: "https://github.com/enayds/airand" },
     tableauEmbed: { path: "shared/RG58NCYT6", width: 1240, height: 1287 },
     simulated: true,
     findings: [
@@ -73,12 +73,13 @@ window.PROJECTS = [
         </ul>` }
     ],
     artefacts: [
-      { name: "Business Requirements Document", note: "23 requirements, 24 rules", url: null },
-      { name: "Software Requirements Specification", note: "53 FRs, 38 user stories", url: null },
-      { name: "Wireframes", note: "9 screens, 4 products", url: null },
-      { name: "Data model and KPI definitions", note: "12 tables, 23 KPIs", url: null },
-      { name: "SQL and synthetic data", note: "Generator, views, KPI queries", url: null },
-      { name: "UAT pack", note: "49 tests and traceability", url: null }
+      { name: "Business Requirements Document", note: "23 requirements, 24 business rules (PDF)", url: "https://github.com/enayds/airand/blob/main/docs/Airand_BRD.pdf" },
+      { name: "Software Requirements Specification", note: "53 FRs, 38 user stories, traceability (PDF)", url: "https://github.com/enayds/airand/blob/main/docs/Airand_SRS.pdf" },
+      { name: "Wireframes", note: "9 screens across 4 products (PDF)", url: "https://github.com/enayds/airand/blob/main/docs/Airand_Wireframes.pdf" },
+      { name: "Data model", note: "12 tables, data dictionary, event taxonomy (PDF)", url: "https://github.com/enayds/airand/blob/main/docs/Airand_Data_Model.pdf" },
+      { name: "KPI definitions", note: "23 KPIs, driver tree, thresholds (PDF)", url: "https://github.com/enayds/airand/blob/main/docs/Airand_KPI_Definitions.pdf" },
+      { name: "SQL and synthetic data", note: "Generator, SQLite database, SQL views and KPI queries", url: "https://github.com/enayds/airand" },
+      { name: "UAT pack", note: "49 tests and traceability (PDF)", url: "https://github.com/enayds/airand/blob/main/docs/Airand_UAT_Pack.pdf" }
     ]
   },
   {
