@@ -33,7 +33,7 @@ window.PROJECTS = [
     role: "Business analyst and data analyst (solo)",
     tools: ["Requirements (BRD, SRS)", "Wireframes", "SQL", "Python", "Tableau"],
     cover: "https://public.tableau.com/static/images/RG/RG58NCYT6/1.png",
-    links: { tableau: "https://public.tableau.com/shared/RG58NCYT6", github: "https://github.com/enayds/airand" },
+    links: { tableau: "https://public.tableau.com/shared/RG58NCYT6", github: "https://github.com/enayds/Airand" },
     tableauEmbed: { path: "shared/RG58NCYT6", width: 1240, height: 1287 },
     simulated: true,
     findings: [
@@ -73,13 +73,13 @@ window.PROJECTS = [
         </ul>` }
     ],
     artefacts: [
-      { name: "Business Requirements Document", note: "23 requirements, 24 business rules (PDF)", url: "https://github.com/enayds/airand/blob/main/docs/Airand_BRD.pdf" },
-      { name: "Software Requirements Specification", note: "53 FRs, 38 user stories, traceability (PDF)", url: "https://github.com/enayds/airand/blob/main/docs/Airand_SRS.pdf" },
-      { name: "Wireframes", note: "9 screens across 4 products (PDF)", url: "https://github.com/enayds/airand/blob/main/docs/Airand_Wireframes.pdf" },
-      { name: "Data model", note: "12 tables, data dictionary, event taxonomy (PDF)", url: "https://github.com/enayds/airand/blob/main/docs/Airand_Data_Model.pdf" },
-      { name: "KPI definitions", note: "23 KPIs, driver tree, thresholds (PDF)", url: "https://github.com/enayds/airand/blob/main/docs/Airand_KPI_Definitions.pdf" },
-      { name: "SQL and synthetic data", note: "Generator, SQLite database, SQL views and KPI queries", url: "https://github.com/enayds/airand" },
-      { name: "UAT pack", note: "49 tests and traceability (PDF)", url: "https://github.com/enayds/airand/blob/main/docs/Airand_UAT_Pack.pdf" }
+      { name: "Business Requirements Document", note: "23 requirements, 24 business rules (Word)", url: "https://github.com/enayds/Airand/raw/master/docs/Airand%20%E2%80%94%20Business%20Requirements%20Document%20%28BRD%29.docx" },
+      { name: "Software Requirements Specification", note: "53 FRs, 38 user stories, traceability (Word)", url: "https://github.com/enayds/Airand/raw/master/docs/Airand%20%E2%80%94%20Software%20Requirements%20Specification%20%28SRS%29.docx" },
+      { name: "Wireframes", note: "9 screens across 4 products (PDF)", url: "https://github.com/enayds/Airand/blob/master/docs/Airand_Wireframes.pdf" },
+      { name: "Data model", note: "12 tables, data dictionary, event taxonomy (Word)", url: "https://github.com/enayds/Airand/raw/master/docs/Airand%20%E2%80%94%20Data%20Model%20%26%20Data%20Dictionary.docx" },
+      { name: "KPI definitions", note: "23 KPIs, driver tree, thresholds (Word)", url: "https://github.com/enayds/Airand/raw/master/docs/Airand%20%E2%80%94%20KPI%20Definitions.docx" },
+      { name: "SQL and synthetic data", note: "Generator, SQLite database, SQL views and KPI queries", url: "https://github.com/enayds/Airand" },
+      { name: "UAT pack", note: "49 tests and traceability (Word)", url: "https://github.com/enayds/Airand/raw/master/docs/Airand%20%E2%80%94%20UAT%20Pack.docx" }
     ]
   },
   {
