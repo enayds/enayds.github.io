@@ -311,3 +311,7 @@ a.artefact:hover { border-color: var(--ink); }
   .role-progress { display: none; }
 }
 section[id] { scroll-margin-top: 72px; }
+
+/* Wide dashboards: project.js widens the embed to the page width and centres it */
+html, body { overflow-x: clip; }
+.prose .embed-frame { display: flex; justify-content: center; }

@@ -94,6 +94,20 @@
     }
   }
 
+  /* ---------- Let a wide dashboard use the full page width, centred ---------- */
+  function widenEmbed() {
+    var el = document.getElementById("embed");
+    if (!el || !el.querySelector(".tableauPlaceholder")) return;
+    el.style.width = ""; el.style.marginLeft = "";
+    var vw = document.documentElement.clientWidth;
+    var w = Math.min((p.tableauEmbed.width || 1200) + 2, vw - 48);
+    var parentLeft = el.parentElement.getBoundingClientRect().left;
+    el.style.width = w + "px";
+    el.style.marginLeft = ((vw - w) / 2 - parentLeft) + "px";
+  }
+  widenEmbed();
+  window.addEventListener("resize", widenEmbed);
+
   /* ---------- Contents highlight ---------- */
   var tocLinks = Array.prototype.slice.call(document.querySelectorAll(".toc a"));
   if ("IntersectionObserver" in window && tocLinks.length) {
