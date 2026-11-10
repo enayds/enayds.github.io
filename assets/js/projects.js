@@ -138,7 +138,7 @@ window.PROJECTS = [
     slug: "housing-price-prediction",
     title: "Housing price prediction",
     question: "Can listing data scraped from the web predict a property's price?",
-    summary: "An end-to-end data science project: scraping a real-estate listing site with Python, cleaning semi-structured HTML into a dataset, and training a model to estimate property prices.",
+    summary: "An end-to-end data science project: scraping property listings from popular Nigerian sites such as Jiji with Python, cleaning semi-structured HTML into a dataset, and training a model to estimate property prices.",
     areas: ["science"],
     year: "",
     type: "Data science, academic project",
@@ -151,7 +151,7 @@ window.PROJECTS = [
       { id: "question", heading: "The question", html: `
         <p>Property prices are hard to compare across a city. Could the details already published on listings — location, size, rooms — predict a fair price?</p>` },
       { id: "data", heading: "Getting the data", html: `
-        <p>I wrote a Python scraper with BeautifulSoup that walked through multiple listing pages and pulled the details out of semi-structured HTML, then cleaned and structured the results into an analysis-ready dataset.</p>` },
+        <p>I wrote a Python scraper with BeautifulSoup that walked through multiple listing pages on popular Nigerian property sites such as Jiji and pulled the details out of semi-structured HTML, then cleaned and structured the results into an analysis-ready dataset.</p>` },
       { id: "model", heading: "The model", html: `
         <p>I explored the data for pricing patterns and trained a predictive model to estimate prices, giving a basis for spotting over- and under-priced listings and trends across areas.</p>` }
     ],
